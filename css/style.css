@@ -93,7 +93,11 @@ body{
   margin-left:1.5vh;
 }
 
-
+@media only screen and (max-width: 1200px){
+  .box .up{
+    margin-top: -80%!important;
+  }
+}
 @media only screen and (max-width: 800px) {
   body{
   margin: 0;
@@ -150,7 +154,14 @@ body{
   .fixed-top-left {
     width: 40%;
   }
-
+  .box .lft{
+    margin-left: 100%!important;
+    /*display: none;*/
+  }
+  .box .up{
+    margin-top: -100%;
+    /*display: none;*/
+  }
 }
 
 @media only screen and (max-width: 300px){
@@ -173,6 +184,16 @@ body{
   }
 }
 
+.box .up{
+    width: 300%!important;
+    margin-left: -80%;
+    margin-top: -150%!important;
+    /*display: none;*/
+  }
+.box .dw{
+    width: 300%!important;
+    /*display: none;*/
+  }
 h1 {
   font-weight: normal;
 }
